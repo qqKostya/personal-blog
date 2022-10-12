@@ -15,7 +15,8 @@
 .add-post__textarea {
     display: block;
     height: 26px;
-    width: 75%;
+    overflow: hidden;
+    flex-grow: 1;
     border: none;
     background: transparent;
     resize: none;
@@ -29,7 +30,8 @@
 }
 
 .add-post__form-actions {
-    width: 25%;
+    width: 120px;
+    flex-shrink: 0;
     display: flex;
     justify-content: flex-end;
 }
